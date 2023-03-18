@@ -1,47 +1,5 @@
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
 
-
+--[[
 
 ░█████╗░██╗░░░░░██╗██╗░░░██╗███████╗
 ██╔══██╗██║░░░░░██║██║░░░██║██╔════╝
@@ -50,57 +8,7 @@
 ██║░░██║███████╗██║░░╚██╔╝░░███████╗
 ╚═╝░░╚═╝╚══════╝╚═╝░░░╚═╝░░░╚══════╝
 
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
---
-
-
-
+]]
 
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "https://discord.gg/aimsets", Text = "/blatant.lua", Duration = 4,});
@@ -311,7 +219,7 @@ Name.BackgroundColor3 = Color3.new(1, 1, 1)
 Name.BackgroundTransparency = 1
 Name.Size = UDim2.new(0.838, 0, 1, 0)
 Name.Font = Enum.Font.Arial
-Name.Text = " .gg/dhsets"..ver
+Name.Text = " .gg/aimsets"..ver
 Name.TextColor3 = Color3.new(1, 1, 1)
 Name.TextScaled = true
 Name.TextSize = 14
